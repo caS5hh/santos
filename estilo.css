@@ -1,0 +1,102 @@
+
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
+#contenedor {
+color: black;
+max-width: 0px;
+height: 100vh;
+margin: 0px;
+padding: 0px;
+display: flex;
+align-items: initial;
+
+
+
+}
+
+button {
+width: 0px;
+height: 100px;
+background-color: rgb(70, 70, 70);
+border-radius: 30px;
+border: #fff;
+cursor: pointer;
+padding: 0px;
+color: #ffff;
+font-size: 90px;
+transition: .3s ease all;
+box-shadow: 0.1em 0.1em 0.2em 0 rgb(0, 0, 0);
+
+
+}
+
+h2 {
+    
+        color: #f2f2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150px;
+        margin-bottom: 5rem;
+        z-index: 2;
+        pointer-events: none;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+        overflow: hidden;
+
+}
+
+body{
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+    }
+    
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .in-flex {
+        flex: 1;
+        padding: 25px;
+        min-width: 250px;
+    }
+    
+    .in-flex:first-child {
+        flex: 2;
+        padding: 25px;  
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+
+    .in-flex div {
+        padding: 25px;
+        margin: 20px;
+
+    }

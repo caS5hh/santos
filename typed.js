@@ -1,0 +1,20 @@
+var typed = new Typed('.typed', {
+	strings: [
+		'<i>CA$HHH</i>',
+		'<i>CA$HHH</i>',
+		'<i>CA$HHH</i>',
+		'<i>CA$HHH</i>',
+	],
+	stringsElement: '#cadenas-texto', 
+	typeSpeed: 75, 
+	startDelay: 300, 
+	backSpeed: 75, 
+	smartBackspace: true, 
+	shuffle: false, 
+	backDelay: 1500, 
+	loop: false, 
+	loopCount: false, 
+	showCursor: true, 
+	cursorChar: '|', 
+	contentType: 'html', 
+});

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900,100');
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+
+h1{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    margin-bottom: 5rem;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.button{
+    padding: 10px 18px;
+    border: 1px solid #f2f2f2;
+    background-color: transparent;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.button:hover{
+    color: #121212;
+    background-color: #f2f2f2;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    right: 125%; 
+  
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%; 
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ 
